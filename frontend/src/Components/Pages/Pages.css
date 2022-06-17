@@ -1,0 +1,16 @@
+/* Home page css */
+.home {
+    background-color: red;
+    height: 500px;
+}
+
+.img {
+    display: flex;
+    float: right;
+    width: 50%;
+}
+
+.text {
+    background-color: blue;
+    height: 100%;
+}

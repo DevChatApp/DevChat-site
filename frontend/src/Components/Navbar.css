@@ -1,4 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffb600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: #f9ae00;
+}
+
+.container {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+}
+
 .nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.white {
     color: #fff;
-    text-decoration: none
+}
+
+.button {
+    background-color: orange;
+}
+
+@media screen and (max-width: 1060px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-link {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .nav-link {
+        text-align: center;
+        margin: 0;
+    }
+    .nav-link {
+        color: black;
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .menuNav {
+        float: right;
+        overflow-y: scroll;
+        list-style: none;
+        position: fixed;
+        top: 0;
+        background: rgb(255, 255, 255);
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        width: 0;
+        overflow: hidden;
+        max-width: 290px;
+        z-index: 9;
+    }
+    
+    .menuNav.showMenu {
+        width: 100%;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 10px 40px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .menuNav, .li:first-child {
+        margin-top: 4rem;
+    }
 }
