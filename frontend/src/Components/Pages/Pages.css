@@ -44,7 +44,8 @@ h1 {
 
 @media screen and (max-width: 680px) {
     .imgHome {
-        margin-top: 80px;
+        margin-top: 120px;
+        margin-left: 20px;
         
     }
 }
