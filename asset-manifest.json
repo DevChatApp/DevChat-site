@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DevChat-site/static/css/main.763703ce.css",
-    "main.js": "/DevChat-site/static/js/main.1aa2ae88.js",
-    "static/js/787.cda612ba.chunk.js": "/DevChat-site/static/js/787.cda612ba.chunk.js",
-    "static/media/home_img.PNG": "/DevChat-site/static/media/home_img.78f815814931173b8d90.PNG",
-    "index.html": "/DevChat-site/index.html",
-    "main.763703ce.css.map": "/DevChat-site/static/css/main.763703ce.css.map",
-    "main.1aa2ae88.js.map": "/DevChat-site/static/js/main.1aa2ae88.js.map",
-    "787.cda612ba.chunk.js.map": "/DevChat-site/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/DevChat-site/frontend/static/css/main.763703ce.css",
+    "main.js": "/DevChat-site/frontend/static/js/main.76fb77b6.js",
+    "static/js/787.cda612ba.chunk.js": "/DevChat-site/frontend/static/js/787.cda612ba.chunk.js",
+    "static/media/home_img.PNG": "/DevChat-site/frontend/static/media/home_img.78f815814931173b8d90.PNG",
+    "index.html": "/DevChat-site/frontend/index.html",
+    "main.763703ce.css.map": "/DevChat-site/frontend/static/css/main.763703ce.css.map",
+    "main.76fb77b6.js.map": "/DevChat-site/frontend/static/js/main.76fb77b6.js.map",
+    "787.cda612ba.chunk.js.map": "/DevChat-site/frontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.763703ce.css",
-    "static/js/main.1aa2ae88.js"
+    "static/js/main.76fb77b6.js"
   ]
 }
