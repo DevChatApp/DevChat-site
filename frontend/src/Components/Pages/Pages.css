@@ -26,7 +26,7 @@ h1 {
     display: block;
     margin: 0 auto;
     width: 50%;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .block1 {
@@ -44,9 +44,14 @@ h1 {
 
 @media screen and (max-width: 680px) {
     .imgHome {
-        margin-top: 120px;
-        margin-left: 20px;
-        
+        margin-top: 110px;
+        left: 15%;
+    }
+
+    .textHome {
+        width: 90%;
+        margin-right: 20px;
+      
     }
 }
 
@@ -87,6 +92,7 @@ h1 {
     .imgHome {
         width: 90%;
         min-width: 500px;
+        max-width: 700px;
     }
 
     .block2 {

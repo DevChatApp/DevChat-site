@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Pages/Home';
 import Contact from './Components/Pages/Contact';
 import Login from './Components/Pages/Login';
